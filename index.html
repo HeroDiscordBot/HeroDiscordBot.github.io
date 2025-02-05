@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a id="homeLink">Home</a></li>
+            <li><a id="errorGuideLink">Error Guide</a></li>
+            <li><a id="socialsLink">Socials</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="homeContent">
+        <div class="profile">
+            <img src="Hero-Profile.jpg" alt="Discord Bot Profile" />
+            <h1>Hero Bot</h1>
+            <button id="addBotButton" onclick="DiscordBotAdd()">Add Hero Bot To Discord</button>
+        </div>
+    </div>
+    <div id="error-guide" class="hidden book-container">
+        <div class="book">
+            <div class="page active">
+                <h2>Error Guide - Page 1</h2>
+                <br>
+                <p><strong>Hero Error 001 - </strong> Only a member with the "HeroAdmin" role can create a welcome channel.</p>
+                <br>
+                <p><strong>Hero Error 002 - </strong> There already excists a channel called "welcome" so the bot can't create a new one.</p>
+                <br>
+                <p><strong>Hero Error 003 - </strong> Only a member with the "HeroAdmin" role can create a ticket channel.</p>
+                <br>
+                <p><strong>Hero Error 004 - </strong> There already excists a channel called "ticket-channel" so the bot can't create a new one.</p>
+            </div>
+            <div class="page">
+                <h2>Error Guide - Page 2</h2>
+            </div>
+            <div class="page">
+                <h2>Error Guide - Page 3</h2>
+            </div>
+            <div class="page">
+                <h2>Error Guide - Page 4</h2>
+            </div>
+        </div>
+        <span id="pageNumber">Page 1 of 4</span>
+        <div class="navigation">
+            <button id="prevPage">←</button>
+            <button id="nextPage">→</button>
+        </div>
+    </div>
+    <div id="socialsInfo" class="hidden socialsInfoClass">
+        <div class="socialsCard">
+            <h2>Get more information about the bot and contact us here!</h2>
+            <div class="button-container">
+                <a href="https://discord.gg/VuSv3JjHNd" class="social-button discord-button" target="_blank">Go To Discord</a>
+                <a href="https://www.youtube.com/@HeroDiscordBot" class="social-button youtube-button" target="_blank">Go To YouTube</a>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
