@@ -187,17 +187,17 @@ button:hover {
 }
 
 .discord-button {
-    background: #7289da; /* Discord color */
+    background: #7289da;
 }
 
 .discord-button:hover {
-    background: #5b6eae; /* Darker shade on hover */
+    background: #5b6eae;
 }
 
 .youtube-button {
-    background: #ff0000; /* YouTube color */
+    background: #ff0000;
 }
 
 .youtube-button:hover {
-    background: #cc0000; /* Darker shade on hover */
+    background: #cc0000;
 }
