@@ -109,11 +109,12 @@ button:hover {
     color: #333;
     font-family: 'Georgia', serif;
     font-size: 16px;
+    top: 20px;
 }
 
 .book {
     width: 300px;
-    height: 400px;
+    height: 420px;
     margin: 20px auto;
     position: relative;
     overflow: hidden;
@@ -123,7 +124,7 @@ button:hover {
 .page {
     position: absolute;
     width: 300px;
-    height: 400px;
+    height: 420px;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     text-align: left;
